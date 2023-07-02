@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { Header } from './componentes/Header'
-import { Dueños } from './componentes/ItemListContainer'
+import { Header } from './componentes/Header/Header'
+import { Dueños } from './componentes/ItemListContainer/ItemListContainer'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
