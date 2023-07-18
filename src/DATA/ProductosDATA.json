@@ -1,0 +1,86 @@
+[
+   {
+      "id":1, 
+      "titulo": "Remera Nude Celeste", 
+      "precio":"14.000$",
+      "img":"/public/remera_azul.png",
+      "category":"Remera"
+   },
+   {
+      "id":2, 
+      "titulo":"Remera Lumina Negra", 
+      "precio":"15.000$",
+      "img":"/public/remera_negra_lumina.png",
+      "category":"Remera" 
+   },
+   {
+      "id":3, 
+      "titulo":"Remera Lumina Verde", 
+      "precio":"15.000$",
+      "img":"/public/remera_verde_lumina.png",
+      "category":"Remera" 
+   },
+   {
+      "id":4, 
+      "titulo":"Campera Nude Marron", 
+      "precio":"16.000$",
+      "img":"/public/campera_marron.jfif",
+      "category":"Campera" 
+   },
+   {
+      "id":5, 
+      "titulo":"Campera Nude violeta", 
+      "precio":"16.000$",
+      "img":"/public/campera_violeta.png",
+      "category":"Campera" 
+   },
+   {
+      "id":6, 
+      "titulo":"Bermuda Azul", 
+      "precio":"6.500$",
+      "img":"/public/pantalon_azul.jfif",
+      "category":"Pantalon" 
+   },
+   {
+      "id":7, 
+      "titulo":"Bermuda Violeta", 
+      "precio":"6.500$",
+      "img":"/public/pantalon_violeta.png",
+      "category":"Pantalon"
+   },
+   {
+      "id":8,
+      "titulo":"Pantalon Marron", 
+      "precio":"8.000$",
+      "img":"/public/pantalon_marron.jfif",
+      "category":"Pantalon" 
+   },
+   {
+      "id":9, 
+      "titulo":"NikeAirMore", 
+      "precio":"23.000$",
+      "img":"/public/NikeAirMore.png",
+      "category":"Zapatilla"
+   },
+   {
+      "id":10, 
+      "titulo":"Nike Air Force 1 Low Retro", 
+      "precio":"20.000$",
+      "img":"/public/Nike Air Force 1 Low Retro.png",
+      "category":"Zapatilla" 
+   },
+   {
+      "id":11, 
+      "titulo":"Air Jordan 4 Retro SE", 
+      "precio":"20.000$",
+      "img":"/public/Air Jordan 4 Retro SE.png",
+      "category":"Zapatilla"
+},
+   {
+      "id":12, 
+      "titulo":"ADIFOM Q",
+      "precio":"19.000$",
+      "img":"/public/ADIFOM Q.png",
+      "category":"Zapatilla" 
+   }
+]

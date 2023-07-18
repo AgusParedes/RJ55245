@@ -1,17 +1,18 @@
 .header{
    background-color: black;
-   font-family: 'Signika Negative', sans-serif;
+   font-family: 'Red Hat Text', sans-serif;
+   border-bottom: 1px solid white;
    .header__container{
       display: flex;
       align-items: center;
       .Logo_lumina{
          width: 200px;
-         margin-left: 10px;
+         margin-left: 60px;
          margin-right: 50px;
       }
       .NavBar{
          display: flex;
-         justify-content: space-around;
+         justify-content: space-evenly;
          width: 100%;
          a {
             text-decoration: none;
@@ -20,7 +21,6 @@
             transition: color 1s;
             position: relative;
          }
-         
          a::before {
             content: "";
             position: absolute;
@@ -28,30 +28,23 @@
             left: 0;
             width: 0;
             height: 1px;
-            background-color: #e9858c;
+            background-color: white;
             transition: width 1s;
          }
-         
-         a:hover {
-            color: #e9858c;
-         }
-         
          a:hover::before {
             width: 100%;
-         }
-         .icono_compra{
-            width: 32px;
-            margin-left: 30px;
          }
          .numero_carrito{
             border-radius: 50px;
             background-color: white;
             color: black;
             width: 26px;
-            position: absolute;
             height: 26px;
-            text-align: center;
-            left: 93.5%;
+            left: 91%;
+            display: flex;
+            margin-left: 50px;
+            align-items: center;
+            justify-content: center;
          }
       }
    }

@@ -1,0 +1,34 @@
+.div_container{
+   display: flex;
+   justify-content: center;
+   .div_detail_container{
+      display: flex;
+      margin-top: 50px;
+      border: 1px solid rgb(196, 196, 196);
+      background-color: rgba(235,226,217,255);
+      .div_izq{
+         margin: 20px 0 20px 20px;
+         .div_img{
+            width: 340px;
+            height: 425px;
+            display: flex;
+            align-items: center;
+            img{
+               width: 100%;
+            }
+      }}
+      .div_der{
+         margin: 20px 20px 20px 0;
+         display: flex;
+         align-items: center;
+         .datos_container{
+            margin: 20px;
+            .div_button{
+               display: flex;
+               justify-content: center;
+               margin-top: 30px;
+            }
+         }
+      }
+   }
+}

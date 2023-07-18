@@ -1,5 +1,6 @@
 import Logo_Lumina from '../../assets/logo_lumina.png'
-import icono_compra from '../../assets/icono_compra.png'
+import { CarritoImg } from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom'
 import './Header.scss'
 
 
@@ -13,12 +14,13 @@ export const Header = () =>{
             <div className='header__container'>
                <img src={Logo_Lumina} alt="Logo" className='Logo_lumina'/>
                <nav className='NavBar'>
-                  <a href="#">INICIO</a>
-                  <a href="#">ROPA</a>
-                  <a href="#">ZAPATILLAS</a>
-                  <a href="#">SOBRE NOSOTROS</a>
+                  <Link to="/">INICIO</Link>
+                  <Link to="/Producto/Campera">CAMPERAS</Link>
+                  <Link to="/Producto/Remera">REMERAS</Link>
+                  <Link to="/Producto/Pantalon">PANTALONES</Link>
+                  <Link to="/Producto/Zapatilla">ZAPATILLAS</Link>
                   <div>
-                     <img src={icono_compra} alt="Icono_Compra" className='icono_compra'/>
+                     <CarritoImg/>
                      <span className='numero_carrito'>{numero_carrito}</span>
                   </div>
                </nav>
