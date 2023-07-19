@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { PedirDatos } from "../../helpers/PedirDatos"
 import { useParams } from "react-router-dom"
 import ItemDetail from "../ItemDetail/ItemDetail"
+import { CargandoItem } from '../CargandoItem/CargandoItem'
 import './ItemDetail.scss'
 
 
@@ -26,7 +27,7 @@ export const ItemDetailContainer = () => {
       <div>
             {
                Cargando
-                  ? <h2>Cargando...</h2>
+                  ? <CargandoItem/>
                   :  <div className="div_container">
                      <ItemDetail item={item}/>
                      </div>

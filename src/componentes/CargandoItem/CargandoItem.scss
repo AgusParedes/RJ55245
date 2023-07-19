@@ -1,0 +1,24 @@
+.div_cargando_container{
+   width: 100%;
+   height: 72vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   .div_img_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 125px;
+      height: 125px;
+      background-color: black;
+      border-radius: 50%; 
+      margin-bottom: 10px;
+      .logo_cargando{
+         width: 110px;
+      }
+   }
+   p{
+      font-size: 18px;
+   }
+}
