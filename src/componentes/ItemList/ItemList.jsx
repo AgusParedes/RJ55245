@@ -9,8 +9,8 @@ const ItemList = ({productos}) => {
          
          <div className="div_productos_container">
             {
-               productos.map((prod) => <div className='col-md-3 mb-3 d-flex justify-content-center'>
-                                          <ItemCard key={prod.id} item={prod}/>
+               productos.map((prod) => <div className='col-md-4 mb-3 d-flex justify-content-center' key={prod.id}>
+                                          <ItemCard item={prod}/>
                                        </div>)
             }
          </div>

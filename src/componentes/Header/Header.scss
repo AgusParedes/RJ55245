@@ -1,7 +1,6 @@
 .header{
    background-color: black;
    font-family: 'Red Hat Text', sans-serif;
-   border-bottom: 1px solid white;
    .header__container{
       display: flex;
       align-items: center;
@@ -14,14 +13,14 @@
          display: flex;
          justify-content: space-evenly;
          width: 100%;
-         a {
+         .nav_pages {
             text-decoration: none;
             color: white;
             height: 24px;
             transition: color 1s;
             position: relative;
          }
-         a::before {
+         .nav_pages::before {
             content: "";
             position: absolute;
             bottom: -1px;
@@ -33,18 +32,6 @@
          }
          a:hover::before {
             width: 100%;
-         }
-         .numero_carrito{
-            border-radius: 50px;
-            background-color: white;
-            color: black;
-            width: 26px;
-            height: 26px;
-            left: 91%;
-            display: flex;
-            margin-left: 50px;
-            align-items: center;
-            justify-content: center;
          }
       }
    }

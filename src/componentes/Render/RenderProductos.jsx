@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { PedirDatos } from '../../helpers/PedirDatos'
 import ItemList from '../ItemList/ItemList'
 import { CargandoItem } from '../CargandoItem/CargandoItem'
+import { collection, getDocs, query, where } from 'firebase/firestore'  
+import { db } from '../../firebase/config'
+
 
 export const RenderProductos = () => {
 const [Ropa, setRopa] = useState([])
@@ -14,19 +16,23 @@ console.log(categoryId)
 useEffect(() => {
    setCargando(true)
 
-   PedirDatos()
-      .then(r => {
-         if (categoryId) {
-            const productosFiltrados = r.filter(prod => prod.category === categoryId)
-            setRopa(productosFiltrados)
-         } else {
-            setRopa(r)
+   const productosRef = collection(db, "productos")
+   const q = query(productosRef, where('category', '==', categoryId))
+
+   getDocs(q)
+   .then((resp) => {
+      const docs = resp.docs.map((doc) => {
+         return{
+            id: doc.id,
+            ...doc.data()
          }
       })
-      .catch(e => console.log(e))
-      .finally(() => {
-         setCargando(false)
-      })
+      setRopa(docs)
+      console.log(docs)
+   })
+   .catch(e => console.log(e))
+   .finally(() => setCargando(false))
+
 }, [categoryId])
 
 return (

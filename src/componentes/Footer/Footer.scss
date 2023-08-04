@@ -1,0 +1,21 @@
+.footer_container{
+   background-color: white;
+   height: 110px;
+   color: black;
+   display: flex;
+   justify-content: center;
+   border-top:1px solid black;
+   .footer_datos{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .iconos_footer{
+         a{
+            text-decoration: none;
+            color: black;
+            margin: 5px;
+         }
+      }
+   }
+}

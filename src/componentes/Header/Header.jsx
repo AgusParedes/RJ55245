@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 import './Header.scss'
 
 
-let numero_carrito = 0
-
 
 export const Header = () =>{
    
@@ -14,14 +12,13 @@ export const Header = () =>{
             <div className='header__container'>
                <img src={Logo_Lumina} alt="Logo" className='Logo_lumina'/>
                <nav className='NavBar'>
-                  <Link to="/">INICIO</Link>
-                  <Link to="/Producto/Campera">CAMPERAS</Link>
-                  <Link to="/Producto/Remera">REMERAS</Link>
-                  <Link to="/Producto/Pantalon">PANTALONES</Link>
-                  <Link to="/Producto/Zapatilla">ZAPATILLAS</Link>
+                  <Link to="/" className='nav_pages'>INICIO</Link>
+                  <Link to="/Producto/Campera-Buzo" className='nav_pages'>CAMPERAS</Link>
+                  <Link to="/Producto/Remera" className='nav_pages'>REMERAS</Link>
+                  <Link to="/Producto/Pantalon" className='nav_pages'>PANTALONES</Link>
+                  <Link to="/Producto/Zapatilla" className='nav_pages'>ZAPATILLAS</Link>
                   <div>
                      <CarritoImg/>
-                     <span className='numero_carrito'>{numero_carrito}</span>
                   </div>
                </nav>
             </div>

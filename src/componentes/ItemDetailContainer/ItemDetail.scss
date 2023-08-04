@@ -3,11 +3,10 @@
    justify-content: center;
    .div_detail_container{
       display: flex;
-      margin-top: 50px;
+      margin: 50px;
       border: 1px solid rgb(196, 196, 196);
-      background-color: rgba(235,226,217,255);
       .div_izq{
-         margin: 20px 0 20px 20px;
+         background-color: rgba(235,226,217,255);
          .div_img{
             width: 340px;
             height: 425px;
@@ -18,17 +17,81 @@
             }
       }}
       .div_der{
-         margin: 20px 20px 20px 0;
          display: flex;
          align-items: center;
+         width: 290px;
          .datos_container{
             margin: 20px;
-            .div_button{
+            height: 100%;
+            width: 100%;
+            .div_arriba{
+               height: 20%;
+               display: flex;
+               align-items: center;
+               h4{
+                  font-weight: 1000;
+               }
+            }
+            .divisor{
+               margin-top: -11px;
+               margin-bottom: 28px;
+               clear: both;
+               border-bottom: 1px solid rgba(22,22,22,24%);
+            }                  
+            }
+            .div_medio{
+               height: 50%;
+               h5{
+                  font-weight: 700;
+                  margin-bottom: 10px;
+               }
+               .item_descripcion{
+                  font-size: 14px;
+               }
+            }
+            .div_boton{
                display: flex;
                justify-content: center;
-               margin-top: 30px;
+               margin-top: 17px;
+               .boton_comprar{
+                  padding: 10px 20px;
+                  font-size: 13px;
+                  border: 1px solid;
+                  border-radius: 3px;
+                  margin-bottom: 10px;
+                  transition: background-color 0.5s;
+                  text-decoration: none;
+                  color: black;
+               }
+               .boton_comprar:hover{
+                  background-color: black;
+                  color: white;
+               }
+            }
+            .div_botonCarrito_detail{
+               display: flex;
+               justify-content: center;
+               height: 100px;
+               align-items: center;
+               .botonCarrito_detail{
+                  padding: 0.375rem 0.75rem;
+                  color: white;
+                  text-decoration: none;
+                  background-color: black;
+                  border-radius: 3px;
+               }
             }
          }
       }
    }
+.boton_count{
+   padding: 5px 12px;
+   border: 1px solid black;
+   transition: background-color 0.5s;
+   background: white;
+   border-radius: 4px;
+}
+.boton_count:hover{
+   background-color: black;
+   color: white;
 }

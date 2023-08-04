@@ -2,85 +2,118 @@
    {
       "id":1, 
       "titulo": "Remera Nude Celeste", 
-      "precio":"14.000$",
+      "precio":14000,
       "img":"/public/remera_azul.png",
-      "category":"Remera"
+      "descripcion":"Nuestra remera de mangas cortas es la prenda perfecta para agregar frescura y versatilidad a tu guardarropa. Con su diseño moderno y suave tejido, esta remera te brindará el máximo confort mientras te mantiene a la moda en cualquier ocasión.",
+      "category":"Remera",
+      "stock": 10,
+      "conjunto":"Blue Ocean"
    },
    {
       "id":2, 
       "titulo":"Remera Lumina Negra", 
-      "precio":"15.000$",
+      "precio":15000,
       "img":"/public/remera_negra_lumina.png",
-      "category":"Remera" 
+      "descripcion":"Nuestra remera de mangas cortas es la prenda perfecta para agregar frescura y versatilidad a tu guardarropa. Con su diseño moderno y suave tejido, esta remera te brindará el máximo confort mientras te mantiene a la moda en cualquier ocasión.",
+      "category":"Remera", 
+      "stock": 10
    },
    {
       "id":3, 
       "titulo":"Remera Lumina Verde", 
-      "precio":"15.000$",
+      "precio":15000,
       "img":"/public/remera_verde_lumina.png",
-      "category":"Remera" 
+      "descripcion":"Nuestra remera de mangas cortas es la prenda perfecta para agregar frescura y versatilidad a tu guardarropa. Con su diseño moderno y suave tejido, esta remera te brindará el máximo confort mientras te mantiene a la moda en cualquier ocasión.",
+      "category":"Remera", 
+      "stock": 10
    },
    {
       "id":4, 
       "titulo":"Campera Nude Marron", 
-      "precio":"16.000$",
+      "precio":16000,
       "img":"/public/campera_marron.jfif",
-      "category":"Campera" 
+      "descripcion":"Nuestra campera combina estilo y funcionalidad para brindarte una prenda imprescindible en tu guardarropa. Con su diseño sofisticado y materiales de alta calidad, esta campera te mantendrá abrigado/a y a la moda en cualquier estación.",
+      "category":"Campera",
+      "stock": 10,
+      "conjunto":"Brown Light"
    },
    {
       "id":5, 
       "titulo":"Campera Nude violeta", 
-      "precio":"16.000$",
+      "precio":16000,
       "img":"/public/campera_violeta.png",
-      "category":"Campera" 
+      "descripcion":"Nuestra campera combina estilo y funcionalidad para brindarte una prenda imprescindible en tu guardarropa. Con su diseño sofisticado y materiales de alta calidad, esta campera te mantendrá abrigado/a y a la moda en cualquier estación.",
+      "category":"Campera",
+      "stock": 10,
+      "conjunto":"Purple Night"
    },
    {
       "id":6, 
-      "titulo":"Bermuda Azul", 
-      "precio":"6.500$",
+      "titulo":"Bermuda Azul Blue Ocean", 
+      "precio":6500,
       "img":"/public/pantalon_azul.jfif",
-      "category":"Pantalon" 
+      "descripcion":"Prepárate para disfrutar del verano con nuestro moderno y versátil pantalón corto. Diseñado para brindarte el máximo confort y estilo, este pantalón corto es imprescindible para cualquier escapada bajo el sol.",
+      "category":"Pantalon",
+      "stock": 10,
+      "conjunto":"Blue Ocean"
    },
    {
       "id":7, 
       "titulo":"Bermuda Violeta", 
-      "precio":"6.500$",
+      "precio":6500,
       "img":"/public/pantalon_violeta.png",
-      "category":"Pantalon"
+      "descripcion":"Prepárate para disfrutar del verano con nuestro moderno y versátil pantalón corto. Diseñado para brindarte el máximo confort y estilo, este pantalón corto es imprescindible para cualquier escapada bajo el sol.",
+      "category":"Pantalon",
+      "stock": 10,
+      "conjunto":"Purple Night"
    },
    {
       "id":8,
       "titulo":"Pantalon Marron", 
-      "precio":"8.000$",
+      "precio":8000,
       "img":"/public/pantalon_marron.jfif",
-      "category":"Pantalon" 
+      "descripcion":"Nuestro pantalón largo combina comodidad y estilo en una sola prenda, siendo la elección ideal para cualquier ocasión. Con su diseño clásico y acabado de alta calidad, este pantalón te proporcionará una experiencia única de uso en cada paso que des.",
+      "category":"Pantalon",
+      "stock": 10,
+      "conjunto":"Brown Light"
    },
    {
       "id":9, 
       "titulo":"NikeAirMore", 
-      "precio":"23.000$",
+      "precio":23000,
       "img":"/public/NikeAirMore.png",
-      "category":"Zapatilla"
+      "descripcion":"Nada refleja tanto el amor como el Air. El cuero café premium perforado y los detalles rosas de ensueño crean un calzado realmente llamativo. Nunca tímido, el siempre llamativo Air More Uptempo ha sido cálido desde su debut en el 96. ",
+      "category":"Zapatilla",
+      "stock": 10,
+      "conjunto":"Brown Light"
    },
    {
       "id":10, 
       "titulo":"Nike Air Force 1 Low Retro", 
-      "precio":"20.000$",
+      "precio":20000,
       "img":"/public/Nike Air Force 1 Low Retro.png",
-      "category":"Zapatilla" 
+      "descripcion":"Dile que sí (de nuevo) al calzado que quieres usar el resto de tu vida. El Nike Air Force 1 Low Retro, que recupera los materiales originales y mantiene todo lo que más te gusta",
+      "category":"Zapatilla",
+      "stock": 10,
+      "conjunto":"Blue Ocean" 
    },
    {
       "id":11, 
       "titulo":"Air Jordan 4 Retro SE", 
-      "precio":"20.000$",
+      "precio":20000,
       "img":"/public/Air Jordan 4 Retro SE.png",
-      "category":"Zapatilla"
+      "descripcion":"El AJ4 ofrece una amortiguación con respuesta inmediata, con unidades Air-Sole en el talón que aporta una comodidad lista para la calle.",
+      "category":"Zapatilla",
+      "stock": 10,
+      "conjunto":"Purple Night"
 },
    {
       "id":12, 
       "titulo":"ADIFOM Q",
-      "precio":"19.000$",
+      "precio":19000,
       "img":"/public/ADIFOM Q.png",
-      "category":"Zapatilla" 
+      "descripcion":"Las zapatillas adidas Adifom Q no se detienen. Elevan el nivel de comodidad y llevan un diseño de los 90 a otro nivel con un estilo atrevido. Desde el exoesqueleto de espuma hasta las inserciones de Adiplus y el interior tipo botín, cada detalle está diseñado para hacer que tus pies se sientan bien.",
+      "category":"Zapatilla",
+      "stock": 10 
    }
 ]
