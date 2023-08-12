@@ -1,0 +1,90 @@
+.checkout_continer{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 30px 0 ;
+   .checkout_enviado{
+      border: 1px solid black;
+      padding: 20px;
+      height: 388px;
+      .div_checkoutEnviado_img{
+         display: flex;
+         justify-content: center;
+         margin-bottom: 40px;
+         img{
+            width: 100px;
+         }
+      }
+      .div_checkoutEnviado_text{
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         .boton_volver_checkout{
+            padding: 0.375rem 0.75rem;
+            color: white;
+            text-decoration: none;
+            background-color: black;
+            border-radius: 3px;
+            margin-top: 20px;
+         }
+      }
+   }
+   .checkout_datos_continer{
+      border:1px solid black;
+      width: 40%;
+      padding: 10px;
+      background-color: #f1f1f1;
+      .div_img_checkout{
+         display: flex;
+         justify-content: center;
+         img{
+            width: 200px;
+         }
+      }
+      div{
+         margin: 10px 0;
+         p{
+            margin-bottom: 5px;
+         }
+         .checkout_inputs{
+            width: 100%;
+         }
+      }
+      .div_container_inputDirecciones{
+         display: flex;
+         width: 100%;
+         .checkout_div_codpostal{
+            width: 20%;
+         }
+         .checkout_div_ubicacion{
+            width: 40%;
+            input{
+               width: 100%;
+            }
+            select{
+               height: 30px;
+               width: 100%;
+            }
+         }
+      }
+      .div_boton_checkout{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         .boton_enviar_checkout{
+            background-color:#198754;
+            padding: 10px 11px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            &:disabled {
+               background-color: lightgray;
+               cursor: not-allowed;
+            }
+         }
+      }
+   }
+}

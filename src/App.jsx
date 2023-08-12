@@ -8,6 +8,7 @@ import { CartProvider } from './contexto/CartContext';
 import { Footer } from './componentes/Footer/Footer'
 import  CartViewContainer  from './componentes/CartViewContainer/CartViewContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Checkout from './componentes/Checkout/Checkout';
 
 function App() {
 
@@ -16,7 +17,7 @@ return (
       <BrowserRouter>
 
 
-<div>
+<>
    <Header/>
 
    <Routes>
@@ -24,10 +25,11 @@ return (
       <Route path='/Producto/:categoryId' element={ <ItemListContainer/> }/>
       <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
       <Route path="/cart" element={ <CartViewContainer /> }/>
+      <Route path="/checkout" element={ <Checkout /> }/>
    </Routes>
 
    <Footer/>
-</div>
+</>
 
 
 </BrowserRouter>

@@ -13,7 +13,7 @@ export const Header = () =>{
                <img src={Logo_Lumina} alt="Logo" className='Logo_lumina'/>
                <nav className='NavBar'>
                   <Link to="/" className='nav_pages'>INICIO</Link>
-                  <Link to="/Producto/Campera-Buzo" className='nav_pages'>CAMPERAS</Link>
+                  <Link to="/Producto/Campera-Buzo" className='nav_pages'>CAMPERAS-BUZOS</Link>
                   <Link to="/Producto/Remera" className='nav_pages'>REMERAS</Link>
                   <Link to="/Producto/Pantalon" className='nav_pages'>PANTALONES</Link>
                   <Link to="/Producto/Zapatilla" className='nav_pages'>ZAPATILLAS</Link>
